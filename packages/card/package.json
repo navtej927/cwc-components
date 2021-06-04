@@ -11,6 +11,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -29,5 +32,5 @@
   "dependencies": {
     "@cwcode/button": "^0.0.4"
   },
-  "gitHead": "41b770593608cc4046e5cb6814f18b298b24653e"
+  "gitHead": "db7f754d41f3054c919e3f6b236c318f5840ea87"
 }

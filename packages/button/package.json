@@ -2,7 +2,7 @@
   "name": "@cwcode/button",
   "version": "0.0.4",
   "description": "> TODO: description",
-  "author": "navtsingh <navtej.singh@move.com>",
+  "author": "navtsingh",
   "homepage": "https://github.com/navtej927/cwc-components#readme",
   "license": "ISC",
   "main": "./dist/index.js",
@@ -29,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/navtej927/cwc-components/issues"
   },
-  "gitHead": "41b770593608cc4046e5cb6814f18b298b24653e"
+  "gitHead": "db7f754d41f3054c919e3f6b236c318f5840ea87"
 }
