@@ -1,6 +1,6 @@
 {
   "name": "@cwcode/card",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "navtsingh <navtej.singh@move.com>",
   "homepage": "https://github.com/navtej927/cwc-components#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/navtej927/cwc-components/issues"
   },
   "dependencies": {
-    "@cwcode/button": "^0.0.2"
+    "@cwcode/button": "^0.0.3"
   }
 }
