@@ -1,10 +1,7 @@
 import React from "react";
 import { Button } from '@cwcode/button';
 
-interface CardProps {
-}
-
-export const Card = (props: CardProps) => {
+export const Card = () => {
   return (
     <div>
       CARD
