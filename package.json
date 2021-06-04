@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:navtej927/cwc-components.git",
-  "author": "navtsingh <navtej.singh@move.com>",
+  "author": "navtej singh",
   "license": "MIT",
   "private": true,
   "scripts": {
