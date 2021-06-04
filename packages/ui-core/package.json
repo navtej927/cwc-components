@@ -1,0 +1,41 @@
+{
+  "name": "@cwcode/ui-core",
+  "version": "0.0.5",
+  "private": false,
+  "description": "> TODO: description",
+  "author": "couplewhocode",
+  "homepage": "https://github.com/navtej927/cwc-components#readme",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navtej927/cwc-components.git"
+  },
+  "scripts": {
+    "test": "cd ../../ && cross-env NODE_ENV=test jest --testPathPattern='packages/ui-core/src/.*.test.ts'",
+    "clean": "rm -rf dist",
+    "typescript": "tsc --build && cp \"./package.json\" ./dist/",
+    "build": "yarn clean && yarn compile"
+  },
+  "bugs": {
+    "url": "https://github.com/navtej927/cwc-components/issues"
+  },
+  "gitHead": "db7f754d41f3054c919e3f6b236c318f5840ea87",
+  "devDependencies": {},
+  "peerDependencies": {
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

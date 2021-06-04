@@ -1,32 +1,32 @@
 {
-  "name": "cwc-components",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:navtej927/cwc-components.git",
-  "author": "navtej singh",
-  "license": "MIT",
+  "name": "root",
   "private": true,
   "scripts": {
     "test": "lerna run test --stream",
     "story": "start-storybook -p 9009",
     "build": "lerna run --parallel build",
     "clean": "lerna run --parallel clean",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "typescript": "lerna run --no-bail --parallel typescript"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
     "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "cross-env": "^7.0.3",
     "jest": "^27.0.4",
     "lerna": "^4.0.0",
     "prettier": "^2.3.0",
+    "ts-jest": "^27.0.2",
     "typescript": "^4.3.2"
   },
   "dependencies": {
     "@storybook/react": "^6.2.9",
-    "@types/react": "^17.0.9",
-    "@types/react-dom": "^17.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

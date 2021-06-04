@@ -1,15 +1,14 @@
 import React from "react";
 
 interface ButtonProps {
-  children: string;
-  disabled?: boolean;
+  label: string;
 }
 
 export const Button = (props: ButtonProps) => {
-  const { children, disabled } = props;
+  const { label } = props;
   return (
-    <button disabled={disabled}>
-      { children}
+    <button>
+      <span>{label}</span>
     </button>
   )
 }
