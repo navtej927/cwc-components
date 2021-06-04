@@ -5,7 +5,6 @@ interface CardProps {
 }
 
 export const Card = (props: CardProps) => {
-  const { } = props;
   return (
     <div>
       CARD
