@@ -11,8 +11,7 @@
     "story": "start-storybook -p 9009",
     "build": "lerna run --parallel build",
     "clean": "lerna run --parallel clean",
-    "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish"
+    "bootstrap": "lerna bootstrap"
   },
   "workspaces": [
     "packages/*"
