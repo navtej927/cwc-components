@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "lib": ["es2020", "dom"],
+    "jsx": "react",
     "module": "commonjs",
     "rootDir": ".",
     "declaration": true,
@@ -11,14 +13,12 @@
     "target": "es6",
     "sourceMap": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "lib": [
-      "es6"
-    ]
+    "skipLibCheck": true
   },
   "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.spec.ts"
+    "**/build",
+    "**/node_modules",
+    "**/dist",
+    "**/.*/"
   ]
- }
+}
