@@ -4,8 +4,8 @@ import { render, screen } from '@testing-library/react';
 
 describe('Button', () => {
   it('should render', () => {
-    const {container, getByText} = render(<Button label="TEST_BTTN"></Button>)
+    const {container} = render(<Button label="TEST_BTTN"></Button>)
     expect(container).toBeDefined();
-    expect(getByText("TEST_BTTN")).toBeDefined();
+    expect(screen.getByText("TEST_BTTN")).toBeDefined();
   });
 });
