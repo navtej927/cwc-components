@@ -22,7 +22,7 @@
     "url": "git+https://github.com/navtej927/cwc-components.git"
   },
   "scripts": {
-    "test": "cd ../../ && cross-env NODE_ENV=test jest --testPathPattern='packages/ui-core/src/.*.test.ts'",
+    "test": "cd ../../ && cross-env NODE_ENV=test jest --testPathPattern='packages/ui-core/src/.*.test.(ts|js|tsx|jsx)'",
     "compile": "tsc --build && cp \"./package.json\" ./dist/",
     "build": "yarn compile",
     "prebuild": "rm -rf dist"

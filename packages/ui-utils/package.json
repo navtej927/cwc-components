@@ -6,7 +6,7 @@
   "author": "couplewhocode",
   "homepage": "https://github.com/navtej927/cwc-components#readme",
   "license": "ISC",
-  "main": "./src/index.ts",
+  "main": "./src/index.js",
   "directories": {
     "dist": "dist",
     "test": "__tests__"
@@ -22,7 +22,7 @@
     "url": "git+https://github.com/navtej927/cwc-components.git"
   },
   "scripts": {
-    "test": "cd ../../ && cross-env NODE_ENV=test jest --testPathPattern='packages/ui-utils/src/.*.test.ts'",
+    "test": "cd ../../ && cross-env NODE_ENV=test jest --testPathPattern='packages/ui-utils/src/.*.test.(ts|js|tsx|jsx)'",
     "compile": "tsc --build && cp \"./package.json\" ./dist/",
     "build": "yarn compile",
     "prebuild": "rm -rf dist"

@@ -1,3 +1,3 @@
-export { default as visuallyHidden } from './visuallyHidden';
+export { default as visuallyHidden } from "./visuallyHidden";
 
 export * from './upperCase';
