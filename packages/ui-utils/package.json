@@ -6,8 +6,7 @@
   "author": "couplewhocode",
   "homepage": "https://github.com/navtej927/cwc-components#readme",
   "license": "ISC",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./src/index.ts",
   "directories": {
     "dist": "dist",
     "test": "__tests__"
@@ -24,9 +23,9 @@
   },
   "scripts": {
     "test": "cd ../../ && cross-env NODE_ENV=test jest --testPathPattern='packages/ui-utils/src/.*.test.ts'",
-    "clean": "rm -rf dist",
-    "typescript": "tsc --build && cp \"./package.json\" ./dist/",
-    "build": "yarn clean && yarn compile"
+    "compile": "tsc --build && cp \"./package.json\" ./dist/",
+    "build": "yarn compile",
+    "prebuild": "rm -rf dist"
   },
   "bugs": {
     "url": "https://github.com/navtej927/cwc-components/issues"
