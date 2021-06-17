@@ -6,4 +6,7 @@ export default {
   title: "Button"
 }
 
-export const basicButton = () => <Button label="BUTTON"></Button>
+export const basicButton = () => {
+  return <Button label="BUTTON"></Button>
+
+}
