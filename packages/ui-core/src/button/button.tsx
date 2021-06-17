@@ -52,7 +52,7 @@ export const Button = (props) => {
   return (
     <button>
       <span>
-        test1
+        test2
       </span>
     </button>
   )
