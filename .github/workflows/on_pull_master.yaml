@@ -25,9 +25,9 @@ jobs:
       - name: Install NPM packages
         run: npm ci
 
+      - name: Run tests
       - run: npm run test
-      - run: yarn && yarn test
-      
+
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
